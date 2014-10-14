@@ -13,7 +13,7 @@ import org.apache.struts2.ServletActionContext;
 public class add extends ActionSupport{
 	    private  String ISBN;
 	    private  String Title;
-	    private  String Publisher;wdwdadsdefsfs
+	    private  String Publisher;
 	    private  String PublishDate;
 	    private  float  Price;
 	    private  int AuthorID;
