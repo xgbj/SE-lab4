@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <title>My JSP 'index.jsp' starting page</title>
 	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">111111
+	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
@@ -20,17 +20,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
   </head>
 <body>
-<h2>添加图书: </h2>
-<s:form action="add">
- <s:textfield name="Title" label="Title"/><br>
- <s:textfield name="ISBN" label="ISBN"/><br>
- <s:textfield name="AuthorID" label="AuthorID"/><br>
- <s:textfield name="Publisher" label="Publisher"/><br>
- <s:textfield name="PublishDate" label="PublishDate"/><br>
- <s:textfield name="Price" label="Price"/><br>
+<h2>图书作者id不存在，需添加作者信息: </h2>
+<s:form action="addAuthor">
+<s:textfield name="AuthorID" label="AuthorID"/><br>
+<s:textfield name="Name" label="Name"/><br>
+<s:textfield name="Age"  label="Age"/><br>
+<s:textfield name="Country"  label="Country"/><br>
 <s:submit />
 </s:form>
 
-  
+
   </body>
 </html>
