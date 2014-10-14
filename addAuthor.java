@@ -14,7 +14,9 @@ public class addAuthor extends ActionSupport{
 		private static Connection connection = null;
 		private static Statement statement ;
 		private static ResultSet resultSet;
-	    hello xgbj!
+
+	    hello wangjiawei!
+
 	    private  int AuthorID;
 	    private  String Name;
 	    private  int Age;
