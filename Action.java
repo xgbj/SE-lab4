@@ -13,7 +13,7 @@ public class Action extends ActionSupport{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 112L;
 	private static Connection connection = null;
 	private static Statement statement ;
 	private static ResultSet resultSet;
@@ -35,9 +35,9 @@ public class Action extends ActionSupport{
 		String sql = String.format("select * from Author where Name = '%s'",name);
 		name =null;
 		
-		Class.forName("com.mysql.jdbc.Driver");// –ﬁ∏ƒ«˝∂Ø∆˜
-		connection = DriverManager.getConnection("jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_xgbjbook","z30n11m435","50hiwji31mx4443hmmwkjw32x133h3z00i0141z2");//–ﬁ∏ƒ
-		//connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookdb","root","www8312711");//–ﬁ∏ƒ
+		Class.forName("com.mysql.jdbc.Driver");// √ê√û¬∏√Ñ√á√Ω¬∂¬Ø√Ü√∑
+		connection = DriverManager.getConnection("jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_xgbjbook","z30n11m435","50hiwji31mx4443hmmwkjw32x133h3z00i0141z2");//√ê√û¬∏√Ñ
+		//connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookdb","root","www8312711");//√ê√û¬∏√Ñ
 		statement = connection.createStatement();
 		
 		resultSet = statement.executeQuery(sql);
