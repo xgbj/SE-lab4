@@ -13,11 +13,8 @@ public class Action extends ActionSupport{
 	/**
 	 * 
 	 */
-<<<<<<< HEAD
+
 	private static final long serialVersionUID = 112345789L;
-=======
-	private static final long serialVersionUID = 112345L;
->>>>>>> C4
 	private static Connection connection = null;
 	private static Statement statement ;
 	private static ResultSet resultSet;
