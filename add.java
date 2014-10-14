@@ -11,7 +11,7 @@ import web.Book;
 import org.apache.struts2.ServletActionContext;
 
 public class add extends ActionSupport{
-	    private  String ISBN;
+	    
 	    private  String Titl;
 	    private  String Publisher;
 	    private  String PublishDate;
