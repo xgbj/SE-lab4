@@ -4,7 +4,7 @@
     <include file="struts-default.xml"/>
 	<package name="web" extends="struts-default"> 
 	<action name="Action" class="web.Action">
-	<result>/hello</result>
+	<result>/hello.jsp</result>
 	</action>
 	<action name="detail" class="web.detail">
 	<result>/detail.jsp</result>

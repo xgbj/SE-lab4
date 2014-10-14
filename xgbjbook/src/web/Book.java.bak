@@ -2,7 +2,7 @@ package web;
 
 
 public class Book {
-    private  String ISB;
+    private  String ISBN;
     private  String Title;
     private  int AuthorID;
     private  String Publisher;
